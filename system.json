@@ -1,6 +1,6 @@
 {
     "id": "nine-shadows",
-    "name": "Nine Shadows",
+    "title": "Nine Shadows",
     "version": "0.0.0",
     "description": "A game about breaking through shadows to the people underneath.",
     "authors": [{
@@ -43,8 +43,8 @@
     ],
     "languages": [
         {
-            "name": "en",
-            "label": "English",
+            "lang": "en",
+            "name": "English",
             "path": "lang/en.json"
         }
     ],
