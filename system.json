@@ -1,0 +1,73 @@
+{
+    "id": "nine-shadows",
+    "name": "Nine Shadows",
+    "version": "0.0.0",
+    "description": "A game about breaking through shadows to the people underneath.",
+    "authors": [{
+        "name": "William Waller",
+        "github": "bmurr3"
+    }],
+    "esmodules": ["nine-shadows.mjs"],
+    "styles": ["styles/core.css"],
+    "packs": [
+        {
+            "name": "caster",
+            "label": "Caster",
+            "type": "Item"
+        },
+        {
+            "name": "class",
+            "label": "Class",
+            "type": "Item"
+        },
+        {
+            "name": "creature",
+            "label": "Creature",
+            "type": "Actor"
+        },
+        {
+            "name": "item",
+            "label": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "nation",
+            "label": "Nation",
+            "type": "Item"
+        },
+        {
+            "name": "npc",
+            "label": "NPC",
+            "type": "Actor"
+        }
+    ],
+    "languages": [
+        {
+            "name": "en",
+            "label": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "documentTypes": {
+        "Actor": {
+            "player": {},
+            "npc": {},
+            "creature": {}
+        },
+        "Item": {
+            "caster": {},
+            "class": {},
+            "item": {},
+            "nation": {}
+        }
+    },
+    "socket": false,
+    "initiative": "1d20",
+    "grid": {
+        "distance": 5,
+        "units": "ft"
+    },
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": "resources.blot",
+    "url": "https://github.com/bmurr3/nine-shadows"
+}
